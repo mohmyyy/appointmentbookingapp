@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Booking Appointment App </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <header>
+      <h1>Book your Appointment</h1>
+    </header>
+    <div class="container">
+      <div class="main">
+        <form id = 'formId'>
+          <h3 > Add your Details </h3>
+          <div class="myDiv">
+          <div>
+            <label for="name"> Name </label>
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+          </div>
+          <div>
+            <label for="email"> Email </label>
+            <input type="email" id="email" name="email" placeholder="username@email.com" >
+          </div>
+          <div>
+            <label for="ph"> Phone </label>
+            <input type="tel" name="phone" id="ph" placeholder="+91" >
+          </div>
+          <!-- <div>
+            <label for="time"> Appointment Date and Time</label>
+            <input type="date" id="date" >
+            <input type="time" id="time" >
+          </div>
+          <input type="textArea" name="message"  id="textArea" value="Message..."> -->
+          <input class ="btn btn-primary" type="submit" id="submit" value="Submit">
+        </form>
+        <ul id="ul" class="list-group" >
+        </ul>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script src="app.js" ></script>
+
+  </body>
+</html>

@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+header{
+  background: #f4f4f4;
+  text-align: center;
+  padding: 1rem;
+  font-size: larger;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+#edit {
+  width: 40px;
+}
+#delete{
+  width:50px ;
+}
+
+.main{
+  margin: 1rem auto 0;
+  width: 400px;
+  height:fit-content;
+  /* padding: 10px; */
+  color: #000;
+  background-color: #ccc;
+}
+#formId {
+  padding: 2rem;
+  background-color: #ccc;
+}
+#formId input[type='text'],input[type="tel"],input[type="email"]{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#formId input[type='time']{
+  width: 49%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#formId input[type='date']{
+  width: 49%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#my-form label {
+  display: block;
+}
+
+#formId input[type='textarea'] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  background: rgb(60,60,60);
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+#theEditBtn,#theDeleteBtn{
+  width: 49%;
+}
+.btn:hover {
+  background: #000;
+}
